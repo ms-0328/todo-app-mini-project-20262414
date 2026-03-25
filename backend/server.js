@@ -81,5 +81,11 @@ app.delete('/api/todos/:id', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 서버 실행 중: http://localhost:${PORT}`));
+// 로컬(내 맥북)에서 개발할 때만 서버를 직접 켭니다.
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => console.log(`로컬 서버 실행 중: ${PORT}`));
+}
+
+// [핵심] Vercel이 가져가서 쓸 수 있게 내보냅니다.
+module.exports = app;

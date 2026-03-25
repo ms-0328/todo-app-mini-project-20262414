@@ -1,0 +1,40 @@
+# 1. 의존성 패키지 (모든 하위 폴더의 node_modules 제외)
+**/node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 2. 빌드 결과물
+**/dist/
+**/dist-ssr/
+**/build/
+.out/
+
+# 3. 환경 변수 및 로컬 설정 (보안상 매우 중요!)
+**/.env
+**/.env.local
+**/.env.*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 4. 로그 파일
+**/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 5. 에디터 및 OS 관련 (맥북 필수)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# 6. 기타 임시 파일
+.eslintcache
+.stylelintcache

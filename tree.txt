@@ -1,0 +1,35 @@
+📦SWE
+ ┣ 📂backend
+ ┃ ┣ 📂node_modules
+ ┃ ┃ ┣ 📂.bin
+ ┃ ┃ ┣ ...
+ ┃ ┣ 📜.env
+ ┃ ┣ 📜package-lock.json
+ ┃ ┣ 📜package.json
+ ┃ ┗ 📜server.js
+ ┣ 📂frontend
+ ┃ ┣ 📂node_modules
+ ┃ ┃ ┣ 📂.bin
+ ┃ ┃ ┃ ┣ ...
+ ┃ ┣ 📂public
+ ┃ ┃ ┣ 📜favicon.svg
+ ┃ ┃ ┗ 📜icons.svg
+ ┃ ┣ 📂src
+ ┃ ┃ ┣ 📂assets
+ ┃ ┃ ┃ ┣ 📜hero.png
+ ┃ ┃ ┃ ┣ 📜react.svg
+ ┃ ┃ ┃ ┗ 📜vite.svg
+ ┃ ┃ ┣ 📜App.css
+ ┃ ┃ ┣ 📜App.jsx
+ ┃ ┃ ┣ 📜index.css
+ ┃ ┃ ┗ 📜main.jsx
+ ┃ ┣ 📜README.md
+ ┃ ┣ 📜eslint.config.js
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜package-lock.json
+ ┃ ┣ 📜package.json
+ ┃ ┣ 📜postcss.config.js
+ ┃ ┣ 📜tailwind.config.js
+ ┃ ┗ 📜vite.config.js
+ ┣ 📜.gitignore
+ ┗ 📜미니_프로젝트-개인.md
